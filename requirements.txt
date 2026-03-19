@@ -1,0 +1,9 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2
+torch>=2.0
+econml>=0.15
+engression>=0.1.14
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.0
