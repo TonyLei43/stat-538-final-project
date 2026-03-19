@@ -8,11 +8,14 @@ All the code related to STAT 538 final project using Engression for causal estim
 STAT-538-Final/
 ├── notebooks/
 │   ├── simulations_outcome.ipynb
-│   └── simulations_augment.ipynb
+│   ├── simulations_augment.ipynb
+│   ├── empirical_studies.ipynb
+│   └── comparison-gamma.ipynb
 ├── src/
 │   ├── dgp.py
 │   └── models.py
 ├── plots/
+├── lalonde.csv/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -23,6 +26,8 @@ STAT-538-Final/
 ### `notebooks/`
 - `simulations_outcome.ipynb`: notebook for METHOD 1 (OUTCOME): replace outcome models and comparing estimators.
 - `simulations_augment.ipynb`: notebook for METHOD 2 (AUGMENTATION): augmenting weak-overlap data, and comparing estimators.
+- `empirical_studies.ipynb`: notebook for IHDP and Lalonde datasets, augmenting weak-overlap data, and comparing estimators.
+- `comparison-gamma.ipynb`: notebook for comparing gamma and covariate space (appendix).
 
 
 ### `src/`
